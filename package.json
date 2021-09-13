@@ -1,0 +1,17 @@
+{
+  "name": "docker-nodejs-pm2",
+  "version": "1.0.0",
+  "description": "Docker: Node.js + PM2 - Cluster Mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --name meetupsapi --watch -i 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raviel Chausse Silveira",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  }
+}
